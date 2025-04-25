@@ -10,4 +10,5 @@ This project is a complete redesign of a cake store website. It showcases variou
 
 # Technologies Used:
 1- HTML5
+
 2- CSS3
