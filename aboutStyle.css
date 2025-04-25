@@ -1,0 +1,21 @@
+body{
+    background-color: #F5FBEF;
+    color: rgb(19, 19, 19);
+}
+.aboutText img {
+    border-radius: 5%;
+    width: 20%;
+    height: 20%;
+    margin: 0.5%;
+}
+section{
+    background-color: #EFACB2;
+   text-align: center;
+
+}
+.aboutPic img {
+    box-shadow: 2px 2px 12px 8px  rgba(16, 16, 16, 0.606);
+    
+}
+
+
