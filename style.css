@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 300vh;
+    background-color: #F5FBEF;
+
+}
+
+/* -------------- Home page ------------ */
+/* -------------- nav bar - Home page ------------ */
+.nav-home{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D19DB4;
+    height: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.nav-home ul{
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+    list-style: none;
+    color: white;
+
+}
+.nav-home ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav-home img {
+    height: 20%;
+    width: 12%;
+}
+.nav-home .logo-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    color: #ffffff;
+    font-size: 120%;
+}
+.nav-home .user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    gap: 5px;
+    width: 15%;
+    
+}
+.nav-home .user img{
+    height: 20px;
+    width: 20px;
+}
+
+/* -------------- Header home - Home page ------------ */
+.header-home{
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(./images/cake-wedding-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;    
+}
+.header-home .text{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    align-content: center;
+    height: 89%;
+    padding: 5%;
+    gap: 3%;
+}
+span{
+    color: #D19DB4;
+    font-weight: bold;
+}
+
+.header-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #D19DB4;
+  border-radius: 4rem;
+  color: #fff;
+  font-weight: bold;
+  transition: background .3s;
+  width: 10%;
+  height: 6%;
+  justify-content: center;
+  border: none;
+}
+.header-button:hover {
+  background-color: hsl(354, 100%, 94%);
+}
+
+/* -------------- popular-cake home - Home page ------------ */
+.popular-cake {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-content: center;
+    gap: 2%;
+    padding: 3%;
+    position: relative;
+    align-items: center;
+}
+.popular-cake .text-popular-cake{
+    letter-spacing: 0.3px;
+    margin-top: 9%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index:-1;
+    
+}
+.popular-cake::after {
+    content: '';
+    position: absolute;
+    top:-20%;
+    width: 100%;
+    height: 190%; 
+    background: #D19DB4; 
+    clip-path: polygon(0 20%, 100% 10%, 100% 80%, 0 100%); 
+    z-index: -1000;
+  }
+.text-popular-cake p{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  margin-top: 1%;
+  font-style: normal;
+  color: #fff;
+}
+
+.text-popular-cake h2{
+font-family: "Ubuntu", sans-serif;
+font-weight: 300;
+font-style: normal;
+margin-bottom: 0.555%;
+
+}
+.popular-cake img{
+    width: 15%;
+    height: 20%;
+    margin-top: 90px;
+    border-radius: 20%;
+    z-index: -100;
+}
+
+
+
+
+
+/* -------------- Cards home- Home page ------------ */
