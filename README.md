@@ -5,9 +5,12 @@ This project is a complete redesign of a cake store website. It showcases variou
 
 # Features:
 1- Responsive Design: The website is optimized for both desktop and mobile devices.
+
 2- Simple Navigation: Users can easily explore different categories of cakes.
+
 3- Engaging Visuals: The design incorporates vibrant and appealing colors, perfect for a bakery business.
 
 # Technologies Used:
 1- HTML5
+
 2- CSS3
