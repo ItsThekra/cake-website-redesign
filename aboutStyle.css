@@ -1,21 +1,43 @@
 body{
     background-color: #F5FBEF;
     color: rgb(19, 19, 19);
+   
+    
 }
-.aboutText img {
-    border-radius: 5%;
+.aboutBox img {
+    border-radius: 1%;
     width: 20%;
     height: 20%;
     margin: 0.5%;
-}
-section{
-    background-color: #EFACB2;
-   text-align: center;
 
 }
-.aboutPic img {
-    box-shadow: 2px 2px 12px 8px  rgba(16, 16, 16, 0.606);
+.aboutBox p{
+    text-align: left;
+  
+}
+section{
+    background-color: #F5FBEF;
+   box-shadow: 1px 1px 9px 6px  rgba(16, 16, 16, 0.230);
+   border: 1px solid #F5FBEF;
+   color: rgb(36, 36, 36); 
+   
+}
+.aboutPic{
+    background-color: #EFACB2;
+    box-shadow: 1px 1px 9px 6px  rgba(16, 16, 16, 0.230);
+    border: 1px solid #F5FBEF;
+    color: rgb(36, 36, 36); 
+    width: 100%; 
+    text-align: left;
     
+}
+.aboutPic img{
+    box-shadow: 1px 1px 9px 6px  rgba(16, 16, 16, 0.230);
+
+}
+h4{
+   
+    margin-left: 1.8%;
 }
 
 
