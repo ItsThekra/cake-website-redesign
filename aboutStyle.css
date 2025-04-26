@@ -94,9 +94,10 @@ padding: 0.5%;
     font-size: large;
     padding-bottom: 0.5%;
 }
-.aboutPic img{
-    box-shadow: 1px 1px 9px 6px  rgba(16, 16, 16, 0.230);
+.aboutSection img{
+    box-shadow: 1px 1px 9px 4px  rgba(16, 16, 16, 0.230);
     text-align: center;
+    border: 0.5px solid #D19DB4;
 }
 h4{
     margin-left: 1%;
@@ -104,7 +105,10 @@ h4{
 .aboutText{
     text-align: left;
     font-size: larger;
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
+
 .contactButton{
     margin-top: 1%;
     padding: 2%;
@@ -112,6 +116,13 @@ h4{
     font-size: large;
     border-radius: 8px;
     border: 2px solid #D19DB4;
+    margin-bottom: 1%;
+    transition-duration: 0.4ms;
+    cursor: pointer;
+}
+.contactButton:hover{
+    background-color: #D19DB4;
+    color: #F5FBEF;
 }
 .galleryButton{
     padding: 2%;
@@ -119,6 +130,17 @@ h4{
     font-size: large;
     border-radius: 8px;
     border: 2px solid #D19DB4;
+    margin-bottom: 1%;
+    transition-duration: 0.4ms;
+    cursor: pointer;
+}
+.galleryButton:hover{
+    background-color: #D19DB4;
+    color: #F5FBEF;
+}
+.contactButton :hover{
+    background-color: #D19DB4;
+    color: #F5FBEF;
 }
 footer {
     background-color: #D19DB4;
