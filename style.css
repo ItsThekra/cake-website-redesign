@@ -7,7 +7,6 @@
 body{
     height: 300vh;
     background-color: #F5FBEF;
-
 }
 
 /* -------------- Home page ------------ */
@@ -34,6 +33,10 @@ body{
 .nav-home ul li a{
     text-decoration: none;
     color: #ffffff;
+    background-color: #9E8179;
+}
+.nav-home ul li a:hover{
+    color: #ffffffb5;
 }
 .nav-home img {
     height: 20%;
@@ -63,6 +66,10 @@ body{
 .nav-home .user img{
     height: 20px;
     width: 20px;
+} 
+/*-----About section------*/
+.aboutBody{
+    height: 60vh;
 }
 
 /* -------------- Header home - Home page ------------ */
@@ -259,8 +266,8 @@ padding: 0.5%;
     text-align: center;
     border: 0.5px solid #D19DB4;
     border-radius: 1%;
-    width: 30%;
-    height: 30%;
+    width: 20%;
+    height: 20%;
     margin: 0.5%;
 }
 h4{
@@ -334,11 +341,12 @@ h4{
 .galleryCard:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
  }
- a{text-decoration: none;
+ a {
+    text-decoration: none;
     color: black;}
-    a:hover{
-        background-color: #D19DB4;
-        color: #F5FBEF;
+a:hover{
+  background-color: #D19DB4;
+    color: #F5FBEF;
     }
 .cakeButton{   
     padding: 1%;
@@ -348,12 +356,17 @@ h4{
     border: 2px solid #D19DB4;
     margin-bottom: 1%;
     transition-duration: 0.4ms;
-    cursor: pointer;text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
     color: black;}
     .cakeButton:hover{
       background-color: #D19DB4;
         color: #F5FBEF;
  }
+.cakeButton:hover{
+ background-color: #D19DB4;
+ color: #F5FBEF;
+    }
 footer {
     /* background-color: #D19DB4; */
     background-color: #9E8179;
