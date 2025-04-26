@@ -8,7 +8,7 @@ body{
     background-color: #F5FBEF;
     color: rgb(19, 19, 19);
     font-family: "Ubuntu", sans-serif;
-    height: 60vh;
+    height: 300vh;
 }
 .nav-home{
     display: flex;
@@ -60,6 +60,10 @@ body{
 .nav-home .user img{
     height: 20px;
     width: 20px;
+} 
+/*-----About section------*/
+.aboutBody{
+    height: 60vh;
 }
 .aboutBox{
     box-shadow: 1px 1px 9px 6px  rgba(16, 16, 16, 0.230);
@@ -91,8 +95,8 @@ padding: 0.5%;
     text-align: center;
     border: 0.5px solid #D19DB4;
     border-radius: 1%;
-    width: 30%;
-    height: 30%;
+    width: 20%;
+    height: 20%;
     margin: 0.5%;
 }
 h4{
@@ -166,11 +170,12 @@ h4{
 .galleryCard:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
  }
- a{text-decoration: none;
+ a {
+    text-decoration: none;
     color: black;}
-    a:hover{
-        background-color: #D19DB4;
-        color: #F5FBEF;
+a:hover{
+  background-color: #D19DB4;
+    color: #F5FBEF;
     }
 .cakeButton{   
     padding: 1%;
@@ -180,11 +185,12 @@ h4{
     border: 2px solid #D19DB4;
     margin-bottom: 1%;
     transition-duration: 0.4ms;
-    cursor: pointer;text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
     color: black;}
-    .cakeButton:hover{
-      background-color: #D19DB4;
-        color: #F5FBEF;
+.cakeButton:hover{
+ background-color: #D19DB4;
+ color: #F5FBEF;
     }
 footer {
     background-color: #D19DB4;
