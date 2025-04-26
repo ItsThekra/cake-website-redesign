@@ -15,16 +15,8 @@ body{
 .nav-home{
     display: flex;
     justify-content: space-between;
-    background-color: #9b8c8c;
-    background-color: #F5FBEF;
-    color: rgb(19, 19, 19);
-    font-family: "Ubuntu", sans-serif;
-    height: 60vh;
-}
-.nav-home{
-    display: flex;
-    justify-content: space-between;
-    background-color: #D19DB4;
+    background-color: #9E8179;
+    /* background-color: #D19DB4; */
     height: 80px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     align-items: center;
@@ -141,7 +133,6 @@ span{
     width: 100%;
     height: 190%; 
     background-color: #f2c6d2 ;
-    /* background: #D19DB4;  */
     clip-path: polygon(0 20%, 100% 10%, 100% 80%, 0 100%); 
     z-index: -1000;
   }
@@ -364,7 +355,8 @@ h4{
         color: #F5FBEF;
  }
 footer {
-    background-color: #D19DB4;
+    /* background-color: #D19DB4; */
+    background-color: #9E8179;
     color: white;
     padding: 40px 20px;
     font-size: 0.875rem;
