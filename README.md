@@ -15,3 +15,6 @@ This project is a complete redesign of a cake store website. It showcases variou
 
 2- CSS3
 
+<!-- ## [Live Site]() -->
+
+<!-- ![preview img](/preview.png) -->
