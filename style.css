@@ -13,7 +13,7 @@ body{
 .nav-home{
     display: flex;
     justify-content: space-between;
-    background-color: #D19DB4;
+    background-color: #9E8179;
     height: 80px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     align-items: center;
@@ -141,56 +141,6 @@ h4{
     background-color: #D19DB4;
     color: #F5FBEF;
 }
-.firstCard{
-    padding-top: 8%;
-}
-.fullcard{
-  width: auto;
-  display: inline-flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  border: 1px solid #ccc;
-  border-radius: 0.4%;
-  padding: 0.3%;
-  text-align: center;
-  margin-bottom: 0.8%;
-}
-.galleryCard {
-    text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    display: inline-block;
-    width: 100%;
-    
-  }
-  .galleryCard img {
-    width: 30%;  
-    }
-.galleryCard:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
- }
- a {
-    text-decoration: none;
-    color: black;}
-a:hover{
-  background-color: #D19DB4;
-    color: #F5FBEF;
-    }
-.cakeButton{   
-    padding: 1%;
-    font-family: 'Ubuntu';
-    font-size: large;
-    border-radius: 8px;
-    border: 2px solid #D19DB4;
-    margin-bottom: 1%;
-    transition-duration: 0.4ms;
-    cursor: pointer;
-    text-decoration: none;
-    color: black;}
-.cakeButton:hover{
- background-color: #D19DB4;
- color: #F5FBEF;
-    }
     /*-----------------FORM-------------------*/
     .formBody{
         height: 160vh;
@@ -242,7 +192,7 @@ text-align: center;
    }
    /*---------------FOOTER---------------------*/
 footer {
-    background-color: #D19DB4;
+    background-color: #9E8179;
     color: white;
     padding: 40px 20px;
     font-size: 0.875rem;
