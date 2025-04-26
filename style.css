@@ -67,7 +67,7 @@ body{
     height: 20px;
     width: 20px;
 } 
-/*-----About section------*/
+/*---------------About section---------------*/
 .aboutBody{
     height: 60vh;
 }
@@ -257,7 +257,6 @@ padding: 0.5%;
     box-shadow: 1px 1px 9px 6px  rgba(16, 16, 16, 0.230);
     border: 1px solid #F5FBEF;
     color: rgb(36, 36, 36); 
-    text-align: center;
     font-size: large;
     padding-bottom: 0.5%;
 }
@@ -328,10 +327,75 @@ h4{
 .gallery-cakes-types .t-t{
     margin-right: 12%;
 }
-
-
+.galleryButton{
+    padding: 2%;
+    font-family: 'Ubuntu';
+    font-size: large;
+    border-radius: 8px;
+    border: 2px solid #D19DB4;
+    margin-bottom: 1%;
+    transition-duration: 0.4ms;
+    cursor: pointer;
+}
+.galleryButton:hover{
+    background-color: #D19DB4;
+    color: #F5FBEF;
+}
+.contactButton :hover{
+    background-color: #D19DB4;
+    color: #F5FBEF;
+}
+    /*-----------------FORM-------------------*/
+    .formBody{
+        height: 160vh;
+    }
+  .contactSection{
+    display: grid;
+    place-items: center;
+    padding-top: 9%;
+    padding-bottom: 0.2%;
+    margin: 0;
+    background-color: #d19db41d;
+    margin-bottom: 0.6%;
+  }
+  form{
+    width: 80%; height: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 8px;
+  }
+  fieldset{
+    border: 1px solid #D19DB4;
+    padding: 1% 1% 1% 1% }
+   input[type=text],[type=tel],[type=email]{
+   width: 20%;
+   }
+   input, textarea{
+     border: 1px solid #D19DB4;
+   }
+   input[type="checkbox"]{
+     accent-color: #D19DB4;
+   }
+   input[type=submit]{
+   width: 30%; height: 6%; 
+    border: 1px solid #D19DB4;
+    color: #F5FBEF;
+    background-color: #D19DB4;
+    font-size: larger;
+   }
+   .contactForm{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    line-height: 3rem;
+   }
+   legend{
+font-family: 'dancing script';
+text-align: center;
+   }
+   /*---------------FOOTER---------------------*/
 footer {
-    /* background-color: #D19DB4; */
     background-color: #9E8179;
     color: white;
     padding: 40px 20px;
