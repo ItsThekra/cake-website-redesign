@@ -17,9 +17,9 @@
 
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="./about.html">About Hannah and Her Cakes</a></li> 
-            <li><a href="#">Show me the Cakes</a></li> 
-            <li><a href="#">Wedding Cake Service</a></li> 
+            <li><a href="./about.html">About</a></li> 
+            <li><a href="#">Cakes</a></li> 
+            <li><a href="#">Service</a></li> 
             <li><a href="./contact.html">Contact</a></li> 
             <li><a href="#">More</a></li> 
         </ul>
@@ -30,12 +30,34 @@
         </div>
     </nav>
     <!------------CONTACT FORM------------->
-    <div class="contactForm">
-     <form>
+    <div class="contactSection">
+        <h2>Looking for a handmade cake in Leicester?</h2>
+        <p><b>
+            Looking for a handmade cake in Leicester?
+            Please use the form below to contact me about ordering a cake. 
+            Give me as much detail as you can or feel free to drop me an email or give me a call.</b></p>
+        <div class="contactForm">
+        <form>
         <fieldset>
-            
+            <label for="FirstName">First Name</label><br>
+            <input type="text" id="FirstName" placeholder="Enter your first name" value="FirstName" required><br>
+            <label for="LastName">Last Name</label><br>
+            <input type="text" id="LastName" placeholder="Enter your last name" value="LastName" required><br>
+            <label for="PartnerName">Partner Full Name (Wedding Cake Enquiries)</label><br>
+            <input type="text" id="PartnerName" placeholder="Enter your partner's full name" value="PartnerName" required><br>
+            <label for="Email">Email</label><br>
+            <input type="email" id="Email" placeholder="Enter your email" value="Email" required><br>
+            <label for="PhoneNumber">Phone Number</label><br>
+            <input type="tel" id="PhoneNumber" placeholder="Enter your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{7}" required><br>
+            <label for="portions">Approximate number of portions needed</label><br>
+            <input type="text" id="portions" placeholder="example: 8 portions" name="portions" required><br>
+            <label for="CakeStyle">Please write a brief description of the style of cake you would like
+                 and the occasion you will be celebrating (Wedding, Birthday, Anniversary, Christening etc)</label><br>
+            <textarea id="CakeStyle" name="CakeStyle" rows="4" cols="8" required><br>
+           <label for="socialMedia"></label>
         </fieldset>
       </form>
+     </div>
     </div>
 
 
