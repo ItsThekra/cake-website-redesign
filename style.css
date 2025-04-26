@@ -16,7 +16,7 @@ body{
 .nav-home{
     display: flex;
     justify-content: space-between;
-    background-color: #D19DB4;
+    background-color: #9b8c8c;
     height: 80px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     align-items: center;
@@ -34,6 +34,7 @@ body{
 .nav-home ul li a{
     text-decoration: none;
     color: #ffffff;
+    font-size: 110%;
 }
 .nav-home img {
     height: 20%;
@@ -132,7 +133,8 @@ span{
     top:-29%;
     width: 100%;
     height: 190%; 
-    background: #D19DB4; 
+    background-color: #f2c6d2 ;
+    /* background: #D19DB4;  */
     clip-path: polygon(0 20%, 100% 10%, 100% 80%, 0 100%); 
     z-index: -1000;
   }
