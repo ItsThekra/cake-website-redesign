@@ -1,15 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-<<<<<<< HEAD
-
-=======
->>>>>>> 7f581d4ea525638eda170cb4f93dc5cac40a19a8
 *{
     padding: 0px;
     margin: 0px;
 }
 body{
-<<<<<<< HEAD
     height: 300vh;
     background-color: #F5FBEF;
 
@@ -21,7 +16,6 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: #9b8c8c;
-=======
     background-color: #F5FBEF;
     color: rgb(19, 19, 19);
     font-family: "Ubuntu", sans-serif;
@@ -31,7 +25,6 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: #D19DB4;
->>>>>>> 7f581d4ea525638eda170cb4f93dc5cac40a19a8
     height: 80px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     align-items: center;
@@ -49,10 +42,6 @@ body{
 .nav-home ul li a{
     text-decoration: none;
     color: #ffffff;
-<<<<<<< HEAD
-    font-size: 110%;
-=======
->>>>>>> 7f581d4ea525638eda170cb4f93dc5cac40a19a8
 }
 .nav-home img {
     height: 20%;
@@ -83,7 +72,6 @@ body{
     height: 20px;
     width: 20px;
 }
-<<<<<<< HEAD
 
 /* -------------- Header home - Home page ------------ */
 .header-home{
@@ -250,7 +238,6 @@ button.category-button:hover {
 /* -------------- footer ---------------- */
 
 /* footer */
-=======
 .aboutBox{
     box-shadow: 1px 1px 9px 6px  rgba(16, 16, 16, 0.230);
     border-bottom: 1px solid #D19DB4;
@@ -375,8 +362,7 @@ h4{
     .cakeButton:hover{
       background-color: #D19DB4;
         color: #F5FBEF;
-    }
->>>>>>> 7f581d4ea525638eda170cb4f93dc5cac40a19a8
+ }
 footer {
     background-color: #D19DB4;
     color: white;
@@ -441,10 +427,4 @@ footer p {
 }
 .copy{
     text-align: center;
-<<<<<<< HEAD
 }
-
-
-=======
-}
->>>>>>> 7f581d4ea525638eda170cb4f93dc5cac40a19a8
