@@ -1,43 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
 body{
     background-color: #F5FBEF;
     color: rgb(19, 19, 19);
-   
-    
+    font-family: "Ubuntu", sans-serif;
+    height: 60vh;
 }
-.aboutBox img {
-    border-radius: 1%;
-    width: 20%;
-    height: 20%;
-    margin: 0.5%;
+.nav-home{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D19DB4;
+    height: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.nav-home ul{
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+    list-style: none;
+    color: white;
 
 }
+.nav-home ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav-home img {
+    height: 20%;
+    width: 12%;
+}
+.nav-home .logo-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    color: #ffffff;
+    font-size: 120%;
+}
+.nav-home .logo-home p{
+   align-items: center;
+   align-content: center;
+}
+.nav-home .user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    gap: 5px;
+    width: 15%;
+    
+}
+.nav-home .user img{
+    height: 20px;
+    width: 20px;
+}
+.aboutBox{
+    box-shadow: 1px 1px 9px 6px  rgba(16, 16, 16, 0.230);
+    border-bottom: 1px solid #D19DB4;
+    line-height: 2rem;
+    padding-top: 5.5%;
+    padding-bottom: 0.2%;
+}
+
+.aboutBox img {
+    border-radius: 1%;
+    width: 30%;
+    height: 30%;
+    margin: 0.5%;
+}
 .aboutBox p{
-    text-align: left;
-  
+
+padding: 0.5%;
 }
-section{
+.aboutSection{
     background-color: #F5FBEF;
-   box-shadow: 1px 1px 9px 6px  rgba(16, 16, 16, 0.230);
-   border: 1px solid #F5FBEF;
-   color: rgb(36, 36, 36); 
-   
-}
-.aboutPic{
-    background-color: #EFACB2;
     box-shadow: 1px 1px 9px 6px  rgba(16, 16, 16, 0.230);
     border: 1px solid #F5FBEF;
     color: rgb(36, 36, 36); 
     width: 100%; 
-    text-align: left;
-    
+    text-align: center;
+    background-color: #F5FBEF;
+    box-shadow: 1px 1px 9px 6px  rgba(16, 16, 16, 0.230);
+    border: 1px solid #F5FBEF;
+    color: rgb(36, 36, 36); 
+    text-align: center;
+    font-size: large;
+    padding-bottom: 0.5%;
 }
 .aboutPic img{
     box-shadow: 1px 1px 9px 6px  rgba(16, 16, 16, 0.230);
-
+    text-align: center;
 }
 h4{
-   
-    margin-left: 1.8%;
+    margin-left: 1%;
+}
+.aboutText{
+    text-align: left;
+    font-size: larger;
+}
+.contactButton{
+    margin-top: 1%;
+    padding: 2%;
+    font-family: 'Ubuntu';
+    font-size: large;
+    border-radius: 8px;
+    border: 2px solid #D19DB4;
+}
+.galleryButton{
+    padding: 2%;
+    font-family: 'Ubuntu';
+    font-size: large;
+    border-radius: 8px;
+    border: 2px solid #D19DB4;
+}
+footer {
+    background-color: #D19DB4;
+    color: white;
+    padding: 40px 20px;
+    font-size: 0.875rem;
 }
 
+.footer-content {
+    text-align: center;
+    margin-bottom: 30px;
+}
 
+.footer-content p {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.footer-apps {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-apps p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.app-icons img {
+    width: 150px;
+    margin: 0 10px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    align-content: center;
+}
+.social-links-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+.social-links .social-links-div img {
+    height: 20px;
+    width: 20px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.875rem;
+}
+
+footer p {
+    font-size: 0.75rem;
+    margin-top: 20px;
+}
+.copy{
+    text-align: center;
+}
