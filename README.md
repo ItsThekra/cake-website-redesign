@@ -17,3 +17,7 @@ This project is a complete redesign of a cake store website. It showcases variou
 
 # Website:
 ## [Live Site](https://itsthekra.github.io/cake-website-redesign/index.html#)
+
+
+![preview img](./images/preview.png)
+
