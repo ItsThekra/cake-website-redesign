@@ -16,4 +16,4 @@ This project is a complete redesign of a cake store website. It showcases variou
 2- CSS3
 
 # Website:
-## [Live Site](https://www.handmadebyhannah.com/wedding-cake-service)
+## [Live Site](https://itsthekra.github.io/cake-website-redesign/index.html#)
